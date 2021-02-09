@@ -3,7 +3,7 @@ object vers {
     val nexus_staging = "0.22.0"
 
     object asoft {
-        val permissions = "0.0.10"
+        val permissions = "0.0.20"
         val persist = "0.2.10"
         val builders = "1.3.0"
         val test = "1.1.10"
