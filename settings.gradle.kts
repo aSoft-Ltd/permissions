@@ -15,5 +15,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "access"
-include(":access-system")
+rootProject.name = "permissions"
+include(":permissions-core")
+include(":permissions-resources")
+include(":permissions-modules")
