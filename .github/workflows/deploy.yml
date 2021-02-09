@@ -29,8 +29,8 @@ jobs:
       - name: Making gradlew executable
         run: chmod +x ./gradlew
         working-directory: .
-      - name: publishing access-system
-        run: ./gradlew :access-system:publish
+      - name: publishing project
+        run: ./gradlew publish
       - name: Closing and Releasing Repositories
-        run: ./gradlew :access-system:closeAndReleaseRepository
+        run: ./gradlew :permissions-core:closeAndReleaseRepository
         working-directory: .
