@@ -17,7 +17,7 @@ This lib is split into to two
 
 This means that it has owner claims, group claims, and claims for other accessors
 
-[badge-maven]: https://img.shields.io/maven-central/v/tz.co.asoft/test/1.0.1?style=flat
+[badge-maven]: https://img.shields.io/maven-central/v/tz.co.asoft/permissions-core/0.0.20?style=flat
 
 [badge-mpp]: https://img.shields.io/badge/kotlin-multiplatform-blue?style=flat
 
