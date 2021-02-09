@@ -1,6 +1,10 @@
 package tz.co.asoft
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class ModulePermission(
+    val name: String,
     val claims: List<String>
 ) {
     companion object {

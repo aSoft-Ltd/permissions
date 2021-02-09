@@ -30,7 +30,7 @@ class ModulePermissionsTest {
             name = "module.x.create",
             details = "Could create a module permission"
         )
-        val claim = ModulePermission(claims = listOf(perm.title))
+        val claim = ModulePermission(name = "test-module", claims = listOf(perm.title))
         expect(claim.claims).toContain(perm.title)
     }
 
@@ -40,7 +40,7 @@ class ModulePermissionsTest {
             name = "module.x.create",
             details = "Could create a module permission"
         )
-        val claim = ModulePermission(claims = listOf())
+        val claim = ModulePermission(name = "test", claims = listOf())
         expect(claim.claims).toNotContain(perm.title)
     }
 }

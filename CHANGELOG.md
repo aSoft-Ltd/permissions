@@ -1,4 +1,9 @@
-# 0.0.10
+# 0.0.20 : 2021.02.09
+
+- Added property name to ModulePermission class
+- Updated readme
+
+# 0.0.10 : 2021.02.09
 
 ## Availability
 
